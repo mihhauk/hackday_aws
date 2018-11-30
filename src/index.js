@@ -8,7 +8,7 @@ import { withAuthenticator } from "aws-amplify-react";
 import aws_config from "./aws-exports";
 
 Amplify.configure(aws_config);
-const AppWithAuth = withAuthenticator(App)
+const AppWithAuth = withAuthenticator(App, {includeGreetings: true})
 
 ReactDOM.render(<AppWithAuth />, document.getElementById('root'));
 

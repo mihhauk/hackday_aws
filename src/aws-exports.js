@@ -5,7 +5,10 @@ const awsmobile =  {
     "aws_cognito_identity_pool_id": "ap-southeast-2:d3409ae4-b150-48b2-b47b-30350cf51af3",
     "aws_cognito_region": "ap-southeast-2",
     "aws_user_pools_id": "ap-southeast-2_zpVWCVyUq",
-    "aws_user_pools_web_client_id": "4ug67pqns7tf44rk4pvrs8vq52"
+    "aws_user_pools_web_client_id": "4ug67pqns7tf44rk4pvrs8vq52",
+    "aws_appsync_graphqlEndpoint": "https://elfplpxssrcjjhc44slnzoi2ca.appsync-api.ap-southeast-2.amazonaws.com/graphql",
+    "aws_appsync_region": "ap-southeast-2",
+    "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS"
 };
 
 
