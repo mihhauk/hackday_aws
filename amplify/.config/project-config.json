@@ -1,0 +1,20 @@
+{
+    "projectName": "hackdayaws",
+    "projectPath": "/home/mxk024/repo/hackday_aws",
+    "defaultEditor": "code",
+    "frontendHandler": {
+        "javascript": "/home/mxk024/.nvm/versions/node/v8.11.1/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "build",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/home/mxk024/.nvm/versions/node/v8.11.1/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}
